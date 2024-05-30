@@ -1,0 +1,9 @@
+
+{
+    "description": "Template used by Gemma-it.",
+    "prompt_input": "<start_of_turn>user\n{instruction}{input}<end_of_turn>",
+    "prompt_no_input": "<start_of_turn>user\n{instruction}<end_of_turn>",
+    "response_split": "<start_of_turn>"    
+}
+
+

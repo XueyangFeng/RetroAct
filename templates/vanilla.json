@@ -1,0 +1,6 @@
+{
+    "description": "A vanilla template",
+    "prompt_input": "{instruction}{input}",
+    "prompt_no_input": "{instruction}",
+    "response_split": ""    
+}

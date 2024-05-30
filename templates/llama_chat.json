@@ -1,0 +1,8 @@
+
+{
+    "description": "Template used by Llama-2-chat.",
+    "prompt_input": "<s>[INST] <<SYS>>\n{instruction}\n<</SYS>>\n\n{input} [/INST]",
+    "prompt_no_input": "<s>[INST] {instruction} [/INST]",
+    "response_split": "[/INST]"    
+}
+
