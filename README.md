@@ -14,3 +14,8 @@ You can use following scripts to install related python package through pip:
 - git clone https://github.com/XueyangFeng/RetroAct.git
   - cd RetroAct
   - pip install -r requirements.txt
+
+## References
+1. Our agent framework code is based on [noahshinn/reflexion](https://github.com/noahshinn/reflexion)
+2. Our IL training code is based on [anchen1011/FireAct/](https://github.com/anchen1011/FireAct/)
+4. Our RL training code is based on [RUCAIBox/RLMEC](https://github.com/RUCAIBox/RLMEC)
