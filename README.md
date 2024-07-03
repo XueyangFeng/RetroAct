@@ -28,7 +28,7 @@ python sft/finetune.py \
 ```
 
 ### RL training
-To reduce the training cost, we use an off-policy approach to train the RL algorithm. You need to first calculate the ref_prob of each token by 'rl/ref_prob.py'.
+To reduce the training cost, we use an off-policy approach to train the RL algorithm. You need to first calculate the ref_prob of each token by `rl/ref_prob.py`.
 
 Then, you can start rl training:
 ```
