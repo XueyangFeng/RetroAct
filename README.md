@@ -17,6 +17,7 @@ You can use following scripts to install related python package through pip:
   - pip install -r requirements.txt
 
 ### IL training
+```
 python sft/finetune.py \
     --learning_rate 1e-4 \
     --base_model <your_base_model_path> \
@@ -24,11 +25,13 @@ python sft/finetune.py \
     --micro_batch_size 1 \
     --num_epochs 5 \
     --output_path <your_sft_model_path> \
+```
 
 ### RL training
 To reduce the training cost, we use an off-policy approach to train the RL algorithm. You need to first calculate the ref_prob of each token by 'rl/ref_prob.py'.
 
 Then, you can start rl training:
+```
 python rl/finetune.py \
     --learning_rate 1e-4 \
     --base_model <your_sft_model_path> \
@@ -41,7 +44,7 @@ python rl/finetune.py \
     --clip_episode 0.3  \
     --rl_data_path <your_rl_data_path> \
     --regular_data_path <your_regular_data_path>
-
+```
 
 ## References
 1. Our agent framework code is based on [noahshinn/reflexion](https://github.com/noahshinn/reflexion)
