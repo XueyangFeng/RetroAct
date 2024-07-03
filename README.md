@@ -12,5 +12,5 @@ This repository is based on our paper: Improving Retrospective Language Agents v
 ## Usage
 You can use following scripts to install related python package through pip:
 - git clone https://github.com/XueyangFeng/RetroAct.git
-  - cd ReHAC
+  - cd RetroAct
   - pip install -r requirements.txt
