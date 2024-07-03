@@ -13,7 +13,6 @@ This repository is based on our paper: Improving Retrospective Language Agents v
 ### Install
 You can use following scripts to install related python package through pip:
 - git clone https://github.com/XueyangFeng/RetroAct.git
-  - cd RetroAct
   - pip install -r requirements.txt
 
 ### IL training
