@@ -8,3 +8,9 @@ This repository is based on our paper: Improving Retrospective Language Agents v
   - start IL training by `sft/finetune.sh`
   - start RL training is in `rl/finetune.sh/`
   - start agent test is in `agent/script`
+ 
+## Usage
+You can use following scripts to install related python package through pip:
+- git clone https://github.com/XueyangFeng/RetroAct.git
+  - cd ReHAC
+  - pip install -r requirements.txt
